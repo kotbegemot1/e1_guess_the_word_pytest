@@ -23,7 +23,7 @@ def merger(x_word, x_word_new):
 if __name__ == '__main__':
 	word = random_word()
 	x_word = secret_word(word)
-	print(f"Здравствуйте, вы на игре 'Угадай слово'. Загаданное слово состоит из {len(word)} букв.")
+	print(f"Здравствуйте, вы на игре Угадай слово. Загаданное слово состоит из {len(word)} букв.")
 	print("У вас есть право 4 раза ошибиться") 
 	i = 0 
 	while i!=4:
